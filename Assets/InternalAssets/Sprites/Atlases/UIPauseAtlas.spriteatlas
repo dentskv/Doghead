@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIPauseAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 81416175a98537b4e8d5cf9a7e95ce7b, type: 3}
+    - {fileID: 102900000, guid: b199bd84c185b1d4ea02199be1432418, type: 3}
+    - {fileID: 2800000, guid: d1e8da041e8e9464aa7f1c42abf17e53, type: 3}
+    - {fileID: 2800000, guid: 2ae3fcc1f29354a14999f0ba7f1618af, type: 3}
+    - {fileID: 2800000, guid: c91d8c9105a9d4e26b69a9f711284e34, type: 3}
+    totalSpriteSurfaceArea: 942418
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: cbd53e61fa94d48ba9eccab46dc90fdd, type: 3}
+  - {fileID: 21300000, guid: c91d8c9105a9d4e26b69a9f711284e34, type: 3}
+  - {fileID: 21300000, guid: 2ae3fcc1f29354a14999f0ba7f1618af, type: 3}
+  - {fileID: 21300000, guid: c0816df19569e45fc9d73e63956162ea, type: 3}
+  - {fileID: 21300000, guid: 9e10450257ed947a79da090d275aef7c, type: 3}
+  - {fileID: 21300000, guid: 02ad1562568324ff398b0b81fd7cbf5b, type: 3}
+  - {fileID: 21300000, guid: 4f913682c48b44ba7a15e7b702a10892, type: 3}
+  - {fileID: 21300000, guid: d1e8da041e8e9464aa7f1c42abf17e53, type: 3}
+  - {fileID: 21300000, guid: 603063740286742a29ed8c7a21b974a8, type: 3}
+  - {fileID: 21300000, guid: eb5a03a542a2b40128196435b548797a, type: 3}
+  - {fileID: 21300000, guid: a35cd427cb10c4a7fbb1aadf149f6305, type: 3}
+  - {fileID: 21300000, guid: ec111718270bc4bd9ad7044a1df1bdd2, type: 3}
+  - {fileID: 21300000, guid: 374d5028dbf96410ea8aebf2588c9350, type: 3}
+  - {fileID: 21300000, guid: dab0373a7b8d54d7caba3849c80c0c57, type: 3}
+  - {fileID: 21300000, guid: 124fe6adde6054bd8b64b4a8fbc9ef4b, type: 3}
+  - {fileID: 21300000, guid: 70953b2e6be4942288c94ad95510499b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - right
+  - shadow
+  - paused_sign
+  - box
+  - exp
+  - heart_full
+  - coin
+  - pause_back
+  - left
+  - no_star
+  - a
+  - b
+  - full_empty
+  - pause
+  - V
+  - star
+  m_RenderDataMap: {}
+  m_Tag: UIPauseAtlas
+  m_IsVariant: 0

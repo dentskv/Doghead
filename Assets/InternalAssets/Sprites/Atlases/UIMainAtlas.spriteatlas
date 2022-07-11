@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIMainAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 636261049758a0e48bdc98ca17b63496, type: 3}
+    totalSpriteSurfaceArea: 516899
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 580f98314655842459b43db286aa6bca, type: 3}
+  - {fileID: 21300000, guid: 40f5ae52c6b43484f8b4ab255030ab68, type: 3}
+  - {fileID: 21300000, guid: bb752fc32eae04146b515fa64303f800, type: 3}
+  - {fileID: 21300000, guid: f8a70f449eab44ac69db3318552ebf01, type: 3}
+  - {fileID: 21300000, guid: 7fe65254abfc34c22bc1fff273f9e0e5, type: 3}
+  - {fileID: 21300000, guid: b29a58644e96347cd8cd5733ba516c6a, type: 3}
+  - {fileID: 21300000, guid: 08ac0128c64e44bd6a918c9b8040ccd1, type: 3}
+  - {fileID: 21300000, guid: 0de1cdd8e58e84d38810f8b7f8b33dfd, type: 3}
+  - {fileID: 21300000, guid: d6a44ce806961435c9a9c2572b4f0088, type: 3}
+  - {fileID: 21300000, guid: 6154dff9981af49138c7370ed6fb4d20, type: 3}
+  - {fileID: 21300000, guid: 6a4d53eabb8f04f408f6495ba0e1bec5, type: 3}
+  - {fileID: 21300000, guid: 16c62beeb12f04be88d7feaed05ac75f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - facebook_icon
+  - score_table
+  - settings
+  - twitter_icon
+  - copyright
+  - dog_advert
+  - gamecenter
+  - shop
+  - dog_head_logo
+  - plus
+  - play
+  - share_text
+  m_RenderDataMap: {}
+  m_Tag: UIMainAtlas
+  m_IsVariant: 0

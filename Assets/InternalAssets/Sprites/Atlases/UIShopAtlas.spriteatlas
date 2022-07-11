@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIShopAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e56472350528d491b812404e185ad0b5, type: 3}
+    totalSpriteSurfaceArea: 2518316
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0101a8107524a4042ade3e371fa2ea2c, type: 3}
+  - {fileID: 21300000, guid: 0d3bf8301715c41b5a6ff3b648204f91, type: 3}
+  - {fileID: 21300000, guid: 41c4f9e05ef86459f9f2b26ce2e006c9, type: 3}
+  - {fileID: 21300000, guid: 60f95cd114f66488687cab78dc380ce5, type: 3}
+  - {fileID: 21300000, guid: 03de8e621446e49b68aa792a09877f7f, type: 3}
+  - {fileID: 21300000, guid: a5d70482cfd174311a8946cd6e949623, type: 3}
+  - {fileID: 21300000, guid: 01ed62d281adc4fa5ad8df53eaa6f102, type: 3}
+  - {fileID: 21300000, guid: 747ab3e2408ec47cbbc515c849a5d300, type: 3}
+  - {fileID: 21300000, guid: 1ad96234dafad445e9127c2195e71667, type: 3}
+  - {fileID: 21300000, guid: 6e100a64a385d4b1ca449e60e4eff010, type: 3}
+  - {fileID: 21300000, guid: d46e43842c0dd4757a9539bed3eef17b, type: 3}
+  - {fileID: 21300000, guid: 85eb30a4d3fa4411caa2bf922d693705, type: 3}
+  - {fileID: 21300000, guid: b273a2b4ade4d48c396dc6d03b929556, type: 3}
+  - {fileID: 21300000, guid: 8df4ffc5646f844a3ab2890b32654dee, type: 3}
+  - {fileID: 21300000, guid: d3ba16d519fa1408183c3a50bb19b39c, type: 3}
+  - {fileID: 21300000, guid: 83fafb66c786a4ed59d24943e3856b0a, type: 3}
+  - {fileID: 21300000, guid: b027d4a652cc843d7b99f6b431fd298a, type: 3}
+  - {fileID: 21300000, guid: ea9d2ba6e1b9e4cc7a2442b474954bb9, type: 3}
+  - {fileID: 21300000, guid: 51027507cb82e4373b3540d2667f7843, type: 3}
+  - {fileID: 21300000, guid: 269687f7e45994393a5fae8749ab7d77, type: 3}
+  - {fileID: 21300000, guid: 7a6c0318fddce470295a752f93b3fdf0, type: 3}
+  - {fileID: 21300000, guid: 5c90ba1807d354fed91aab5116abc4bf, type: 3}
+  - {fileID: 21300000, guid: 1cdd715831f1d4de6b175290429bc7c1, type: 3}
+  - {fileID: 21300000, guid: 0e1572582f8344a5883a8e405500f44c, type: 3}
+  - {fileID: 21300000, guid: 5a835ea8664d14cb2bab62c6f730bd04, type: 3}
+  - {fileID: 21300000, guid: 902cb199f121340f8834229ecaa04e48, type: 3}
+  - {fileID: 21300000, guid: 3f50f5a9d57894e558637fbe483e8750, type: 3}
+  - {fileID: 21300000, guid: b4dcdfd9204284ffea17ad3c3c0c7a8e, type: 3}
+  - {fileID: 21300000, guid: 62959ce948ba444ca9395d85939fb533, type: 3}
+  - {fileID: 21300000, guid: 0fd58bba93c4f485397ad6ba53a452b3, type: 3}
+  - {fileID: 21300000, guid: 8aa6137b09f0248e4a8d04a2758a2286, type: 3}
+  - {fileID: 21300000, guid: 5300974cae76c46eb96b8d64a4c7e1be, type: 3}
+  - {fileID: 21300000, guid: 1816f8dc130a8458ea3b53f8385af7e6, type: 3}
+  - {fileID: 21300000, guid: 3764813e5b09042f8abde13116997c98, type: 3}
+  - {fileID: 21300000, guid: abb5229e7586048c881561093b056a0d, type: 3}
+  - {fileID: 21300000, guid: 754fb1ce664c347dcaa2e71524923a0b, type: 3}
+  - {fileID: 21300000, guid: b565294f7c9054bdd9dba1dc371eb55b, type: 3}
+  - {fileID: 21300000, guid: 1d03059fa72c94431a8cb5599beebc25, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - unlock
+  - gem_3
+  - white_point
+  - point_disable
+  - shop_sign
+  - continue
+  - frame_point_disable
+  - 1
+  - yellow_point
+  - coin_big
+  - 6
+  - 5
+  - passive_back
+  - gem small
+  - back_blue
+  - 2
+  - get_coins
+  - _shop-preview
+  - equip
+  - equipped
+  - 4
+  - upgrade 1
+  - top_back_title_line
+  - short_gun
+  - coin small
+  - back
+  - active_back
+  - frame_point
+  - back 1
+  - upgrade
+  - equip 1
+  - frame_point_active
+  - 3
+  - short_gun_purple
+  - plate
+  - background
+  - equipped 1
+  - get_coins 1
+  m_RenderDataMap: {}
+  m_Tag: UIShopAtlas
+  m_IsVariant: 0

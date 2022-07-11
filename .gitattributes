@@ -1,2 +1,147 @@
-# Auto detect text files and perform LF normalization
+# Macro for Unity YAML-based asset files.
+[attr]unityyaml merge=unityyamlmerge diff -text 
+#eol=lf
+# Macro for all binary files that should use Git LFS.
+[attr]lfs -text filter=lfs diff=lfs merge=lfs
+# Default to auto-normalized line endings.
 * text=auto
+# Code
+*.cs text diff=csharp
+*.cginc text
+*.shader text
+## Unity ##
+*.mat unityyaml
+*.unity unityyaml
+*.prefab unityyaml
+*.asset unityyaml
+*.meta unityyaml
+*.anim unityyaml
+*.physicsMaterial2D unityyaml
+*.physicMaterial unityyaml
+*.controller unityyaml
+*.overrideController unityyaml
+*.playable unityyaml
+*.mask unityyaml
+*.brush unityyaml
+*.flare unityyaml
+*.fontsettings unityyaml
+*.guiskin unityyaml
+*.giparams unityyaml
+*.renderTexture unityyaml
+*.spriteatlas unityyaml
+*.terrainlayer unityyaml
+*.mixer unityyaml
+*.shadervariants unityyaml
+*.preset unityyaml
+*.asmdef -text diff
+# Unity Binary Assets
+*.cubemap lfs
+*.unitypackage lfs
+# Note: Unity terrain assets must have "-Terrain" suffix.
+*-[Tt]errain.asset -unityyaml lfs
+# Note: Unity navmesh assets must have "-NavMesh" suffix.
+*-[Nn]av[Mm]esh.asset -unityyaml lfs
+# Collapse Unity-generated files on GitHub
+*.asset linguist-generated
+*.mat linguist-generated
+*.meta linguist-generated
+*.prefab linguist-generated
+*.unity linguist-generated
+# Prevent git from trying to merge these things
+#*.unity binary
+#*.prefab binary
+#*.asset binary
+# 3D models
+*.3dm lfs
+*.3ds lfs
+*.abc lfs
+*.blend lfs
+*.c4d lfs
+*.collada lfs
+*.dae lfs
+*.dxf lfs
+*.fbx lfs
+*.jas lfs
+*.lws lfs
+*.lwo lfs
+*.lwo2 lfs
+*.lxo lfs
+*.ma lfs
+*.max lfs
+*.mb lfs
+*.obj lfs
+*.ply lfs
+*.skp lfs
+*.stl lfs
+*.ztl lfs
+*.dfx lfs
+*.glb lfs
+*.blender lfs
+# Audio
+*.aif lfs
+*.aiff lfs
+*.it lfs
+*.mod lfs
+*.mp3 lfs
+*.ogg lfs
+*.s3m lfs
+*.wav lfs
+*.xm lfs
+# Video formats
+*.mov lfs
+*.avi lfs
+*.asf lfs
+*.mpg lfs
+*.mpeg lfs
+*.mp4 lfs
+*.flv lfs
+*.ogv lfs
+*.wmv lfs
+# Fonts
+*.otf lfs
+*.ttf lfs
+# Images
+*.jpg lfs
+*.jpeg lfs
+*.png lfs
+*.apng lfs
+*.atsc lfs
+*.gif lfs
+*.bmp lfs
+*.exr lfs
+*.tga lfs
+*.tiff lfs
+*.tif lfs
+*.iff lfs
+*.pict lfs
+*.dds lfs
+*.xcf lfs
+*.leo lfs
+*.kra lfs
+*.kpp lfs
+*.clip lfs
+*.webm lfs
+*.webp lfs
+*.svg lfs
+*.svgz lfs
+*.psd lfs
+*.afphoto lfs
+*.afdesign lfs
+# Executables
+*.exe lfs
+*.dll lfs
+*.so lfs
+*.pdb lfs
+*.mdb lfs
+*.a lfs
+# Packaging
+*.zip lfs
+*.7z lfs
+*.gz lfs
+*.rar lfs
+*.tar lfs
+*.pdf lfs
+*.bundle lfs
+*.srcaar lfs
+*.aar filter=lfs diff=lfs merge=lfs -text
+*.jar filter=lfs diff=lfs merge=lfs -text

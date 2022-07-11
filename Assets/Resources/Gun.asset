@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d5547af2a03a44c8311b8d835b7374, type: 3}
+  m_Name: Gun
+  m_EditorClassIdentifier: 
+  guns:
+  - gunSprite: {fileID: 21300000, guid: cc23a4e85c7d54b5397175e38a2f45d0, type: 3}
+    gunLvl: 0
+    buyPrice: 0
+    gunStats:
+    - gunLevel: 1
+      gunDamage: 1
+      projectileSpeed: 2
+      timeBetweenBullets: 2
+      upgradePrice: 500
+    - gunLevel: 2
+      gunDamage: 1
+      projectileSpeed: 3
+      timeBetweenBullets: 3
+      upgradePrice: 1000
+    - gunLevel: 3
+      gunDamage: 1
+      projectileSpeed: 4
+      timeBetweenBullets: 4
+      upgradePrice: 1500
+    - gunLevel: 4
+      gunDamage: 2
+      projectileSpeed: 4
+      timeBetweenBullets: 4
+      upgradePrice: 2000
+  - gunSprite: {fileID: 21300000, guid: 7f8393b3d2a514ded8866b4ed2bc4f48, type: 3}
+    gunLvl: 1
+    buyPrice: 1000
+    gunStats:
+    - gunLevel: 1
+      gunDamage: 1
+      projectileSpeed: 2
+      timeBetweenBullets: 2
+      upgradePrice: 500
+    - gunLevel: 1
+      gunDamage: 1
+      projectileSpeed: 3
+      timeBetweenBullets: 3
+      upgradePrice: 1000
+    - gunLevel: 2
+      gunDamage: 1
+      projectileSpeed: 3
+      timeBetweenBullets: 3
+      upgradePrice: 1500
+    - gunLevel: 3
+      gunDamage: 2
+      projectileSpeed: 4
+      timeBetweenBullets: 4
+      upgradePrice: 2000
+  - gunSprite: {fileID: 21300000, guid: c89fb82a4ce604cbba6796d839e56a6a, type: 3}
+    gunLvl: 2
+    buyPrice: 2000
+    gunStats:
+    - gunLevel: 1
+      gunDamage: 2
+      projectileSpeed: 3
+      timeBetweenBullets: 3
+      upgradePrice: 500
+    - gunLevel: 1
+      gunDamage: 3
+      projectileSpeed: 4
+      timeBetweenBullets: 4
+      upgradePrice: 1000
+    - gunLevel: 2
+      gunDamage: 3
+      projectileSpeed: 5
+      timeBetweenBullets: 5
+      upgradePrice: 1500
+    - gunLevel: 3
+      gunDamage: 4
+      projectileSpeed: 5
+      timeBetweenBullets: 5
+      upgradePrice: 2000
+  - gunSprite: {fileID: 21300000, guid: 60a71cf05d1b64f4b982e05b62ce77be, type: 3}
+    gunLvl: 3
+    buyPrice: 3000
+    gunStats:
+    - gunLevel: 1
+      gunDamage: 3
+      projectileSpeed: 5
+      timeBetweenBullets: 5
+      upgradePrice: 500
+    - gunLevel: 1
+      gunDamage: 3
+      projectileSpeed: 6
+      timeBetweenBullets: 6
+      upgradePrice: 1000
+    - gunLevel: 2
+      gunDamage: 4
+      projectileSpeed: 6
+      timeBetweenBullets: 6
+      upgradePrice: 1500
+    - gunLevel: 3
+      gunDamage: 5
+      projectileSpeed: 7
+      timeBetweenBullets: 7
+      upgradePrice: 2000
+  - gunSprite: {fileID: 21300000, guid: 232ea61d2be9146b5996390bf6e2da5e, type: 3}
+    gunLvl: 4
+    buyPrice: 4000
+    gunStats:
+    - gunLevel: 1
+      gunDamage: 4
+      projectileSpeed: 1
+      timeBetweenBullets: 1
+      upgradePrice: 500
+    - gunLevel: 1
+      gunDamage: 4
+      projectileSpeed: 2
+      timeBetweenBullets: 2
+      upgradePrice: 1000
+    - gunLevel: 2
+      gunDamage: 5
+      projectileSpeed: 2
+      timeBetweenBullets: 2
+      upgradePrice: 1500
+    - gunLevel: 3
+      gunDamage: 6
+      projectileSpeed: 3
+      timeBetweenBullets: 3
+      upgradePrice: 2000
+  - gunSprite: {fileID: 21300000, guid: 9fef11115b6184ba496341fde00797a0, type: 3}
+    gunLvl: 5
+    buyPrice: 5000
+    gunStats:
+    - gunLevel: 1
+      gunDamage: 5
+      projectileSpeed: 2
+      timeBetweenBullets: 2
+      upgradePrice: 500
+    - gunLevel: 1
+      gunDamage: 6
+      projectileSpeed: 2
+      timeBetweenBullets: 2
+      upgradePrice: 1000
+    - gunLevel: 2
+      gunDamage: 7
+      projectileSpeed: 3
+      timeBetweenBullets: 3
+      upgradePrice: 1500
+    - gunLevel: 3
+      gunDamage: 7
+      projectileSpeed: 4
+      timeBetweenBullets: 4
+      upgradePrice: 2000
