@@ -64895,7 +64895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 116617946945192163, guid: be4b78020076aeb4682f461c2f700603, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -49.8
+      value: -49.16
       objectReference: {fileID: 0}
     - target: {fileID: 116617946945192163, guid: be4b78020076aeb4682f461c2f700603, type: 3}
       propertyPath: m_LocalPosition.z
@@ -64936,6 +64936,10 @@ PrefabInstance:
     - target: {fileID: 116617946945192173, guid: be4b78020076aeb4682f461c2f700603, type: 3}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 116617947205222115, guid: be4b78020076aeb4682f461c2f700603, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116617947205222118, guid: be4b78020076aeb4682f461c2f700603, type: 3}
       propertyPath: audioSource
